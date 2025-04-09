@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #00f;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #333;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.exercicios, .orientacao, .beneficios {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.exercicios h2, .orientacao h1, .beneficios h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.categoria {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.categoria img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1em;
+    color: #888;
+}
